@@ -17,11 +17,19 @@ import java.util.List;
 
 public class SpaceShipsOperations {
     public List<ResupplyPerSpaceShipPerDistance> SpaceShipsAndMAkeCAlculations(int MGLT){
-        List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
+        List<ResupplyPerSpaceShipPerDistance> results;
         List<SpaceShips> spaceShips = getSpaceShips();
+        results = QtyOfResupplyPerDistance(spaceShips);
+
         for (SpaceShips s: spaceShips){
             results.add(new ResupplyPerSpaceShipPerDistance(s.getName()));
         }
+        return results;
+    }
+
+    private List<ResupplyPerSpaceShipPerDistance> QtyOfResupplyPerDistance(List<SpaceShips> spaceShips) {
+        List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
+
         return results;
     }
 

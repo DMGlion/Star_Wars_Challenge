@@ -28,7 +28,7 @@ public class UserActionScanner {
                 if(distance.equals("quit")){
                     System.out.println("See you have a good travel");
                     break;
-                }else if (validateUserInput(distance)){
+                }else if (!validateUserInput(distance)){
                     System.out.println("Invalid input retry again");
                 }else {
                     result = callCalculation(distance);
@@ -59,9 +59,10 @@ public class UserActionScanner {
     }
 
     public boolean validateUserInput(String distance){
-        return !distance.matches("-?\\d+(\\.\\d+)?")
-                || Double.parseDouble(distance)>Integer.MAX_VALUE
-                || Double.parseDouble(distance)<=0;
+        return distance.matches("-?\\d+(\\.\\d+)?")
+                && Double.parseDouble(distance)>0
+                && Double.parseDouble(distance)<Integer.MAX_VALUE;
+
 
     }
 

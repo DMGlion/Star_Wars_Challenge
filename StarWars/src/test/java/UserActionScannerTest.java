@@ -1,8 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class UserActionScannerTest {
     UserActionScanner userActionScanner = new UserActionScanner();
 
@@ -11,8 +9,33 @@ public class UserActionScannerTest {
     }
 
     @Test
-    public void validateUserInput() {
+    public void validateUserInputMGLT() {
+        boolean result = userActionScanner.validateUserInput("10000");
+        Assert.assertTrue(result);
+    }
 
+    @Test
+    public void validateUserInputMGLTBellowZero() {
+        boolean result = userActionScanner.validateUserInput("-1");
+        Assert.assertFalse(result);
+    }
+
+    @Test
+    public void validateUserInputMGLTOverMaxInt() {
+        boolean result = userActionScanner.validateUserInput("2147483648");
+        Assert.assertFalse(result);
+    }
+
+    @Test
+    public void validateUserInputMGLTNotNumerical() {
+        boolean result = userActionScanner.validateUserInput("testing");
+        Assert.assertFalse(result);
+    }
+
+    @Test
+    public void validateUserInputMGLTMixNumericalAndOTherCharacters() {
+        boolean result = userActionScanner.validateUserInput("b6987ceb678");
+        Assert.assertFalse(result);
     }
 
     @Test

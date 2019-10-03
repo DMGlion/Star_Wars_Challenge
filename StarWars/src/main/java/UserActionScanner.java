@@ -29,9 +29,9 @@ public class UserActionScanner {
                     System.out.println("Invalid input retry again");
                 }else {
                     result = callCalculation(distance);
-                    for (ResupplyPerSpaceShipPerDistance s: result){
-                        System.out.println(s.toString());
-                     }
+
+                    //display SpaceShips
+                    displaySpaceShips(result);
                 }
             }
         }
@@ -42,9 +42,7 @@ public class UserActionScanner {
         List<ResupplyPerSpaceShipPerDistance> result;
         SpaceShipsOperations spaceShipsOperations = new SpaceShipsOperations();
         result = spaceShipsOperations.spaceShipsAndMakeCalculations(Integer.parseInt(distance));
-        for (ResupplyPerSpaceShipPerDistance s : result) {
-            System.out.println(s.toString());
-        }
+
         return result;
     }
 
@@ -63,5 +61,11 @@ public class UserActionScanner {
         System.out.println("===================================================");
         System.out.println();
         System.out.println("Type function");
+    }
+
+    public void displaySpaceShips(List<ResupplyPerSpaceShipPerDistance> result){
+        for (ResupplyPerSpaceShipPerDistance s: result){
+            System.out.println(s.getName() + ": " + s.getResuply());
+        }
     }
 }

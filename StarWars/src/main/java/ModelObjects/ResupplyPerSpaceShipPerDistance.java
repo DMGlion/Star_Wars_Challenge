@@ -6,6 +6,9 @@ public class ResupplyPerSpaceShipPerDistance {
     private String resupply;
     private int distance;
 
+    public ResupplyPerSpaceShipPerDistance() {
+    }
+
     public ResupplyPerSpaceShipPerDistance(String name) {
         this.name = name;
     }

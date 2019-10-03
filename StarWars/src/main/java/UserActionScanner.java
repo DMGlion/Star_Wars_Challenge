@@ -17,13 +17,16 @@ public class UserActionScanner {
 
             printEntry();
             String question = scanner.nextLine();
+
             if(question.equals("quit")){
+                System.out.println("See you have a good travel");
                 break;
-            }else if (question.equals("start")){
+            }else if (validateFunctionInputUser(question)){
                 System.out.println();
                 System.out.println("Enter a distance on MGLT");
                 String distance = scanner.nextLine();
                 if(distance.equals("quit")){
+                    System.out.println("See you have a good travel");
                     break;
                 }else if (validateUserInput(distance)){
                     System.out.println("Invalid input retry again");
@@ -36,6 +39,15 @@ public class UserActionScanner {
             }
         }
         return result;
+    }
+
+    private boolean validateFunctionInputUser(String question) {
+        if(question.equals("start")){
+            return true;
+        }
+        System.out.println();
+        System.out.println("Please select and appropriate function from the ones described below ");
+        return false;
     }
 
     public List<ResupplyPerSpaceShipPerDistance> callCalculation(String distance) {

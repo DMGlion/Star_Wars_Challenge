@@ -25,7 +25,7 @@ public class UserActionScanner {
                 String distance = scanner.nextLine();
                 if(distance.equals("quit")){
                     break;
-                }else if (!distance.matches("-?\\d+(\\.\\d+)?")){
+                }else if (validateUserInput(distance)){
                     System.out.println("Invalid input retry again");
                 }else {
                     result = spaceShipsOperations.SpaceShipsAndMAkeCAlculations(Integer.parseInt(distance));
@@ -36,6 +36,13 @@ public class UserActionScanner {
             }
         }
         return result;
+    }
+
+    public boolean validateUserInput(String distance){
+        return !distance.matches("-?\\d+(\\.\\d+)?")
+                || Double.parseDouble(distance)>Integer.MAX_VALUE
+                || Double.parseDouble(distance)<=0;
+
     }
 
     public void printEntry(){

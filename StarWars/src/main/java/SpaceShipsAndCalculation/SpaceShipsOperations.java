@@ -28,6 +28,7 @@ public class SpaceShipsOperations {
         List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
         for (SpaceShips s: spaceShips){
             //TODO Calculation need to be apropiate
+            System.out.println(s.getConsumables());
             if (!s.getMGLT().equals("unknown")) {
                 results.add(new ResupplyPerSpaceShipPerDistance(s.getName(),
                         Float.toString((float) Math.ceil(MGLT / Float.parseFloat(s.getMGLT()))),

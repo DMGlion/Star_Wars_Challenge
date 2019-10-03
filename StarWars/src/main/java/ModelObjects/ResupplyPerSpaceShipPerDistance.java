@@ -5,12 +5,13 @@ public class ResupplyPerSpaceShipPerDistance {
     private String name;
     private String resupply;
     private int distance;
+    private String errMessage;
 
     public ResupplyPerSpaceShipPerDistance() {
     }
 
-    public ResupplyPerSpaceShipPerDistance(String name) {
-        this.name = name;
+    public ResupplyPerSpaceShipPerDistance(String errMessage) {
+        this.errMessage = errMessage;
     }
 
     public ResupplyPerSpaceShipPerDistance(String name, String resupply, int distance) {
@@ -41,6 +42,14 @@ public class ResupplyPerSpaceShipPerDistance {
 
     public void setDistance(int distance) {
         this.distance = distance;
+    }
+
+    public String getErrMessage() {
+        return errMessage;
+    }
+
+    public void setErrMessage(String errMessage) {
+        this.errMessage = errMessage;
     }
 
     @Override

@@ -18,11 +18,21 @@ import java.util.List;
 
 public class SpaceShipsOperations {
     public List<ResupplyPerSpaceShipPerDistance> spaceShipsAndMakeCalculations(int MGLT) {
-        List<ResupplyPerSpaceShipPerDistance> results;
-        List<SpaceShips> spaceShips = getSpaceShips();
-        results = qtyOfResupplyPerDistance(spaceShips, MGLT);
 
+            List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
+        if(validateUserInput(MGLT)) {
+            List<SpaceShips> spaceShips = getSpaceShips();
+            results = qtyOfResupplyPerDistance(spaceShips, MGLT);
+        }else {
+            results.add(new ResupplyPerSpaceShipPerDistance("MGLT received is not in a correct format"));
+        }
         return results;
+    }
+
+
+    private boolean validateUserInput(int distance){
+        return distance>0
+                && distance<Integer.MAX_VALUE;
     }
 
     private List<ResupplyPerSpaceShipPerDistance> qtyOfResupplyPerDistance(List<SpaceShips> spaceShips, int MGLT) {

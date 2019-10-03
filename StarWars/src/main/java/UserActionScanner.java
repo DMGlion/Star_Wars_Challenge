@@ -33,8 +33,12 @@ public class UserActionScanner {
                 }else {
                     result = callCalculation(distance);
 
-                    //display SpaceShips
-                    displaySpaceShips(result);
+                    if (result.get(0).getErrMessage()!=null){
+                        System.out.println(result.get(0).getErrMessage());
+                    }else {
+                        //display SpaceShips
+                        displaySpaceShips(result);
+                    }
                 }
             }
         }

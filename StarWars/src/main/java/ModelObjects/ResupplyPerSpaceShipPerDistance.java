@@ -3,11 +3,17 @@ package ModelObjects;
 public class ResupplyPerSpaceShipPerDistance {
 
     private String name;
-    private float resuply;
+    private String resupply;
     private int distance;
 
     public ResupplyPerSpaceShipPerDistance(String name) {
         this.name = name;
+    }
+
+    public ResupplyPerSpaceShipPerDistance(String name, String resupply, int distance) {
+        this.name = name;
+        this.resupply = resupply;
+        this.distance = distance;
     }
 
     public String getName() {
@@ -18,12 +24,12 @@ public class ResupplyPerSpaceShipPerDistance {
         this.name = name;
     }
 
-    public float getResuply() {
-        return resuply;
+    public String getResuply() {
+        return resupply;
     }
 
-    public void setResuply(float resuply) {
-        this.resuply = resuply;
+    public void setResuply(String resuply) {
+        this.resupply = resuply;
     }
 
     public int getDistance() {
@@ -38,7 +44,7 @@ public class ResupplyPerSpaceShipPerDistance {
     public String toString() {
         return "ResupplyPerSpaceShipPerDistance{" +
                 "name='" + name + '\'' +
-                ", resuply=" + resuply +
+                ", resuply=" + resupply +
                 ", distance=" + distance +
                 '}';
     }

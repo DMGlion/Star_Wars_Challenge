@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5059a65d-4027-4b7a-8f47-73bfb8bafd65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StarWarsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StarWarsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShips.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShips.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ModelObjects/ResupplyPerSpaceShipPerDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ModelObjects/ResupplyPerSpaceShipPerDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StarWarsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StarWarsMain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,10 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StarWarsMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="150">
+              <caret line="10" column="113" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="166">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -40,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/API/API.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="240">
               <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,24 +63,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="212">
+              <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#2206#2207#0" expanded="true" />
+                <element signature="e#4753#4754#0" expanded="true" />
+                <element signature="e#4780#4781#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="345">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1148#1181#0" expanded="true" />
-                <element signature="e#1042#1054#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
+            <state relative-caret-position="240">
               <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -146,6 +159,8 @@
     <findStrings>
       <find>page</find>
       <find>system</find>
+      <find>mglt</find>
+      <find>MGLT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,16 +178,16 @@
         <option value="$PROJECT_DIR$/src/test/java/StarWarsAPItest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/spaceShips.java" />
         <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/GetSpaceShips.java" />
         <option value="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPErDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java" />
         <option value="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StarWarsMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StarWarsMain.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -182,8 +197,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,7 +334,9 @@
       <workItem from="1570051363319" duration="1787000" />
       <workItem from="1570053185207" duration="523000" />
       <workItem from="1570054098194" duration="1553000" />
-      <workItem from="1570055800078" duration="1700000" />
+      <workItem from="1570055800078" duration="1781000" />
+      <workItem from="1570057655991" duration="1636000" />
+      <workItem from="1570059473846" duration="1611000" />
     </task>
     <servers />
   </component>
@@ -329,13 +346,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19729000" />
+    <option name="totallyTimeSpent" value="23057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -344,8 +360,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40963855" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.72409636" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33734939" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,6 +385,30 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9-sources.jar!/com/fasterxml/jackson/core/ObjectCodec.java">
@@ -449,6 +489,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/API/API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar!/org/apache/http/message/AbstractHttpMessage.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -487,10 +547,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/API/API.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="166">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2206#2207#0" expanded="true" />
+            <element signature="e#4753#4754#0" expanded="true" />
+            <element signature="e#4780#4781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -499,48 +580,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StarWarsMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="150">
+          <caret line="10" column="113" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1148#1181#0" expanded="true" />
-            <element signature="e#1042#1054#0" expanded="true" />
           </folding>
         </state>
       </provider>

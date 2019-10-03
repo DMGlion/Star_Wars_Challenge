@@ -19,16 +19,25 @@ public class SpaceShipsOperations {
     public List<ResupplyPerSpaceShipPerDistance> SpaceShipsAndMAkeCAlculations(int MGLT){
         List<ResupplyPerSpaceShipPerDistance> results;
         List<SpaceShips> spaceShips = getSpaceShips();
-        results = QtyOfResupplyPerDistance(spaceShips);
+        results = QtyOfResupplyPerDistance(spaceShips,MGLT);
 
-        for (SpaceShips s: spaceShips){
-            results.add(new ResupplyPerSpaceShipPerDistance(s.getName()));
-        }
         return results;
     }
 
-    private List<ResupplyPerSpaceShipPerDistance> QtyOfResupplyPerDistance(List<SpaceShips> spaceShips) {
+    private List<ResupplyPerSpaceShipPerDistance> QtyOfResupplyPerDistance(List<SpaceShips> spaceShips, int MGLT) {
         List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
+        for (SpaceShips s: spaceShips){
+            //TODO Calculation need to be apropiate
+            if (!s.getMGLT().equals("unknown")) {
+                results.add(new ResupplyPerSpaceShipPerDistance(s.getName(),
+                        Float.toString((float) Math.ceil(MGLT / Float.parseFloat(s.getMGLT()))),
+                        MGLT));
+            }else {
+                results.add(new ResupplyPerSpaceShipPerDistance(s.getName(),
+                        "unknown",
+                        MGLT));
+            }
+        }
 
         return results;
     }

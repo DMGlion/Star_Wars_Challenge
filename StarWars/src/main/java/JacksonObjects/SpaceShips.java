@@ -56,7 +56,7 @@ public class SpaceShips {
     @JsonProperty("hyperdrive_rating")
     private String hyperdriveRating;
     @JsonProperty("MGLT")
-    private String mGLT;
+    private String MGLT;
     @JsonProperty("starship_class")
     private String starshipClass;
     @JsonProperty("pilots")
@@ -184,12 +184,12 @@ public class SpaceShips {
 
     @JsonProperty("MGLT")
     public String getMGLT() {
-        return mGLT;
+        return MGLT;
     }
 
     @JsonProperty("MGLT")
-    public void setMGLT(String mGLT) {
-        this.mGLT = mGLT;
+    public void setMGLT(String MGLT) {
+        this.MGLT = MGLT;
     }
 
     @JsonProperty("starship_class")

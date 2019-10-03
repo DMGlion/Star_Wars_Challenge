@@ -8,7 +8,7 @@ public class StarWarsMain {
         System.out.println("Welcome to the intergalactic travel");
 
         SpaceShipsOperations spaceShipsOperations = new SpaceShipsOperations();
-        List<ResupplyPerSpaceShipPerDistance> result = spaceShipsOperations.SpaceShipsAndMAkeCAlculations(10000);
+        List<ResupplyPerSpaceShipPerDistance> result = spaceShipsOperations.SpaceShipsAndMAkeCAlculations(1000000);
 
         for (ResupplyPerSpaceShipPerDistance s: result){
             System.out.println(s.toString());

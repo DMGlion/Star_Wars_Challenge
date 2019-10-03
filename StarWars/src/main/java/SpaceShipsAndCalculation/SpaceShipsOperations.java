@@ -2,6 +2,7 @@ package SpaceShipsAndCalculation;
 
 import API.API;
 import API.GetRequestRepository;
+import ConstantsConsumables.Consumables;
 import JacksonObjects.SpaceShips;
 import JacksonObjects.SpaceShipsOverView;
 import ModelObjects.ResupplyPerSpaceShipPerDistance;
@@ -9,7 +10,6 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
-
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -27,11 +27,9 @@ public class SpaceShipsOperations {
     private List<ResupplyPerSpaceShipPerDistance> QtyOfResupplyPerDistance(List<SpaceShips> spaceShips, int MGLT) {
         List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
         for (SpaceShips s: spaceShips){
-            //TODO Calculation need to be apropiate
-            System.out.println(s.getConsumables());
-            if (!s.getMGLT().equals("unknown")) {
+            if (!s.getConsumables().equals("unknown") && !s.getMGLT().equals("unknown")) {
                 results.add(new ResupplyPerSpaceShipPerDistance(s.getName(),
-                        Float.toString((float) Math.ceil(MGLT / Float.parseFloat(s.getMGLT()))),
+                        CalculateResupply(s.getConsumables(),s.getMGLT(),MGLT),
                         MGLT));
             }else {
                 results.add(new ResupplyPerSpaceShipPerDistance(s.getName(),
@@ -39,8 +37,26 @@ public class SpaceShipsOperations {
                         MGLT));
             }
         }
-
         return results;
+    }
+
+    private String CalculateResupply(String consumables, String mglt, int Distance) {
+            String [] valuesConsumables = consumables.split(" ");
+            if (valuesConsumables[1].equals(Consumables.DAY) || valuesConsumables[1].equals(Consumables.DAYS)){
+                return String.valueOf((Distance/Float.parseFloat(mglt))/
+                        ((Float.parseFloat(valuesConsumables[0])* Consumables.DAY_HOURS)));
+            }else if (valuesConsumables[1].equals(Consumables.WEEK) || valuesConsumables[1].equals(Consumables.WEEKS)){
+                return String.valueOf((Distance/Float.parseFloat(mglt))/
+                        ((Float.parseFloat(valuesConsumables[0])* Consumables.WEEK_HOURS)));
+            }else if (valuesConsumables[1].equals(Consumables.MONTH) || valuesConsumables[1].equals(Consumables.MONTHS)){
+                return String.valueOf((Distance/Float.parseFloat(mglt))/
+                        ((Float.parseFloat(valuesConsumables[0])* Consumables.MONTH_HOURS)));
+            }else if (valuesConsumables[1].equals(Consumables.YEAR) || valuesConsumables[1].equals(Consumables.YEARS)){
+                return String.valueOf((Distance/Float.parseFloat(mglt))/
+                        ((Float.parseFloat(valuesConsumables[0])* Consumables.YEAR_HOURS)));
+            }
+        System.out.println(valuesConsumables[0]);
+        return "";
     }
 
     private List<SpaceShips> getSpaceShips() {

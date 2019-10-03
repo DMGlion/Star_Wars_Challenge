@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class UserActionScanner {
-    public List<ResupplyPerSpaceShipPerDistance> ActionScanner(){
+    public List<ResupplyPerSpaceShipPerDistance> actionScanner() {
         List<ResupplyPerSpaceShipPerDistance> result = new ArrayList<ResupplyPerSpaceShipPerDistance>();
         SpaceShipsOperations spaceShipsOperations = new SpaceShipsOperations();
         System.out.println();
@@ -28,12 +28,22 @@ public class UserActionScanner {
                 }else if (validateUserInput(distance)){
                     System.out.println("Invalid input retry again");
                 }else {
-                    result = spaceShipsOperations.SpaceShipsAndMAkeCAlculations(Integer.parseInt(distance));
+                    result = callCalculation(distance);
                     for (ResupplyPerSpaceShipPerDistance s: result){
                         System.out.println(s.toString());
                      }
                 }
             }
+        }
+        return result;
+    }
+
+    public List<ResupplyPerSpaceShipPerDistance> callCalculation(String distance) {
+        List<ResupplyPerSpaceShipPerDistance> result;
+        SpaceShipsOperations spaceShipsOperations = new SpaceShipsOperations();
+        result = spaceShipsOperations.spaceShipsAndMakeCalculations(Integer.parseInt(distance));
+        for (ResupplyPerSpaceShipPerDistance s : result) {
+            System.out.println(s.toString());
         }
         return result;
     }

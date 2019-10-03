@@ -10,26 +10,27 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
+
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
 public class SpaceShipsOperations {
-    public List<ResupplyPerSpaceShipPerDistance> SpaceShipsAndMAkeCAlculations(int MGLT){
+    public List<ResupplyPerSpaceShipPerDistance> spaceShipsAndMakeCalculations(int MGLT) {
         List<ResupplyPerSpaceShipPerDistance> results;
         List<SpaceShips> spaceShips = getSpaceShips();
-        results = QtyOfResupplyPerDistance(spaceShips,MGLT);
+        results = qtyOfResupplyPerDistance(spaceShips, MGLT);
 
         return results;
     }
 
-    private List<ResupplyPerSpaceShipPerDistance> QtyOfResupplyPerDistance(List<SpaceShips> spaceShips, int MGLT) {
+    private List<ResupplyPerSpaceShipPerDistance> qtyOfResupplyPerDistance(List<SpaceShips> spaceShips, int MGLT) {
         List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
         for (SpaceShips s: spaceShips){
             if (!s.getConsumables().equals("unknown") && !s.getMGLT().equals("unknown")) {
                 results.add(new ResupplyPerSpaceShipPerDistance(s.getName(),
-                        CalculateResupply(s.getConsumables(),s.getMGLT(),MGLT),
+                        calculateResupply(s.getConsumables(), s.getMGLT(), MGLT),
                         MGLT));
             }else {
                 results.add(new ResupplyPerSpaceShipPerDistance(s.getName(),
@@ -40,7 +41,7 @@ public class SpaceShipsOperations {
         return results;
     }
 
-    private String CalculateResupply(String consumables, String mglt, int Distance) {
+    private String calculateResupply(String consumables, String mglt, int Distance) {
             String [] valuesConsumables = consumables.split(" ");
             if (valuesConsumables[1].equals(Consumables.DAY) || valuesConsumables[1].equals(Consumables.DAYS)){
                 return String.valueOf(Math.floor((Distance/Float.parseFloat(mglt))/
@@ -74,9 +75,8 @@ public class SpaceShipsOperations {
         JsonArray resultsSpaceships = jsonObject.getAsJsonArray("results");
         Type collectionType = new TypeToken<Collection<SpaceShips>>(){}.getType();
         Collection<SpaceShips> enums = gson.fromJson(resultsSpaceships, collectionType);
-        for (SpaceShips s: enums){
-            totalSpaceShips.add(s);
-        }
+        totalSpaceShips.addAll(enums);
+
         while (spaceShipsOverView.getNext()!=null) {
             String valueUri = spaceShipsOverView.getNext();
             String [] splited = valueUri.split("/");

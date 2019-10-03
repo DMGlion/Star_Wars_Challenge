@@ -89,9 +89,7 @@ public class SpaceShipsOperations {
             resultsSpaceships = jsonObject.getAsJsonArray("results");
             collectionType = new TypeToken<Collection<SpaceShips>>(){}.getType();
             enums = gson.fromJson(resultsSpaceships, collectionType);
-            for (SpaceShips s: enums){
-                totalSpaceShips.add(s);
-            }
+                totalSpaceShips.addAll(enums);
         }
         return totalSpaceShips;
     }

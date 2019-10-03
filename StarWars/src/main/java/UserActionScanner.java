@@ -62,8 +62,6 @@ public class UserActionScanner {
         return distance.matches("-?\\d+(\\.\\d+)?")
                 && Double.parseDouble(distance)>0
                 && Double.parseDouble(distance)<Integer.MAX_VALUE;
-
-
     }
 
     public void printEntry(){

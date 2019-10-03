@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5059a65d-4027-4b7a-8f47-73bfb8bafd65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Documentation/Testing Edge-Cases.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../Documentation/Testing Edge-Cases.pages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UserActionScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserActionScanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UserActionScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserActionScannerTest.java" afterDir="false" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UserActionScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+            <state relative-caret-position="720">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="480">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="47" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +47,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StarWarsMain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="1290">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UserActionScannerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-590">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="78">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,34 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#645#646#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpaceShipsAndCalculation/SpaceShipsOperationsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StarWarsAPItest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -143,9 +132,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/StarWarsMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpaceShipsAndCalculation/SpaceShipsOperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/UserActionScanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java" />
         <option value="$PROJECT_DIR$/src/test/java/UserActionScannerTest.java" />
       </list>
     </option>
@@ -294,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserActionScannerTest">
+  <component name="RunManager" selected="JUnit.UserActionScannerTest.callCalculationIndividualExpectedResults">
     <configuration name="StarWarsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StarWarsMain" />
       <module name="StarWars" />
@@ -311,11 +300,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserActionScannerTest.validateUserInputMGLT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserActionScannerTest.callCalculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StarWars" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserActionScannerTest" />
-      <option name="METHOD_NAME" value="validateUserInputMGLT" />
+      <option name="METHOD_NAME" value="callCalculation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StarWars" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserActionScannerTest" />
+      <option name="METHOD_NAME" value="callCalculationIndividualExpectedResults" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -331,23 +330,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserActionScannerTest.validateUserInputMGLTOverMaxInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StarWars" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserActionScannerTest" />
-      <option name="METHOD_NAME" value="validateUserInputMGLTOverMaxInt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserActionScannerTest" />
-        <item itemvalue="JUnit.UserActionScannerTest.validateUserInputMGLTNotNumerical" />
+        <item itemvalue="JUnit.UserActionScannerTest.callCalculationIndividualExpectedResults" />
         <item itemvalue="Application.StarWarsMain" />
-        <item itemvalue="JUnit.UserActionScannerTest.validateUserInputMGLTOverMaxInt" />
-        <item itemvalue="JUnit.UserActionScannerTest.validateUserInputMGLT" />
+        <item itemvalue="JUnit.UserActionScannerTest" />
+        <item itemvalue="JUnit.UserActionScannerTest.callCalculation" />
+        <item itemvalue="JUnit.UserActionScannerTest.validateUserInputMGLTNotNumerical" />
       </list>
     </recent_temporary>
   </component>
@@ -390,50 +379,52 @@
       <workItem from="1570109195397" duration="1378000" />
       <workItem from="1570111347603" duration="1639000" />
       <workItem from="1570113191263" duration="1740000" />
-      <workItem from="1570115016541" duration="302000" />
+      <workItem from="1570115016541" duration="1510000" />
+      <workItem from="1570117025103" duration="1524000" />
+      <workItem from="1570118842933" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserActionScannerTest - 2019.10.03 at 15h 57m 20s.xml">
-      <configuration name="UserActionScannerTest" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 16h 56m 42s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest - 2019.10.03 at 15h 59m 49s.xml">
-      <configuration name="UserActionScannerTest" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 16h 57m 05s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest - 2019.10.03 at 16h 00m 55s.xml">
-      <configuration name="UserActionScannerTest" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 16h 58m 36s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest - 2019.10.03 at 16h 04m 17s.xml">
-      <configuration name="UserActionScannerTest" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 16h 58m 53s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest_validateUserInputMGLT - 2019.10.03 at 16h 04m 40s.xml">
-      <configuration name="UserActionScannerTest.validateUserInputMGLT" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 17h 10m 12s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest_validateUserInputMGLT - 2019.10.03 at 16h 05m 02s.xml">
-      <configuration name="UserActionScannerTest.validateUserInputMGLT" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 17h 10m 58s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest_validateUserInputMGLTOverMaxInt - 2019.10.03 at 16h 05m 15s.xml">
-      <configuration name="UserActionScannerTest.validateUserInputMGLTOverMaxInt" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 17h 11m 21s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest - 2019.10.03 at 16h 05m 20s.xml">
-      <configuration name="UserActionScannerTest" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 17h 11m 47s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest_validateUserInputMGLTNotNumerical - 2019.10.03 at 16h 06m 35s.xml">
-      <configuration name="UserActionScannerTest.validateUserInputMGLTNotNumerical" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 17h 12m 16s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionScannerTest - 2019.10.03 at 16h 07m 24s.xml">
-      <configuration name="UserActionScannerTest" configurationId="JUnit" />
+    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 17h 12m 36s.xml">
+      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46193000" />
+    <option name="totallyTimeSpent" value="49182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2736954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -647,47 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConstantsConsumables/Consumables.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,18 +684,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UserActionScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+        <state relative-caret-position="720">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="47" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UserActionScannerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="78">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

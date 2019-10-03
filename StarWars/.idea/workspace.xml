@@ -6,32 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5059a65d-4027-4b7a-8f47-73bfb8bafd65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/StarWars_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarWars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StarWars.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/API/API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/API.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/API/ArgumentSwitcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/ArgumentSwitcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/API/GetRequestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/GetRequestRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/API/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConstantsConsumables/Consumables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConstantsConsumables/Consumables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShips.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShips.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShipsOverView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShipsOverView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/StarWars.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ModelObjects/ResupplyPerSpaceShipPerDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ModelObjects/ResupplyPerSpaceShipPerDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StarWarsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StarWarsMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserActionScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserActionScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SpaceShipsAndCalculation/SpaceShipsOperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpaceShipsAndCalculation/SpaceShipsOperationsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StarWarsAPItest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StarWarsAPItest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UserActionScannerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserActionScannerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="5059a65d-4027-4b7a-8f47-73bfb8bafd65" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="376">
               <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
             </state>
           </provider>
@@ -381,7 +356,7 @@
       <workItem from="1570127166516" duration="1519000" />
       <workItem from="1570128974865" duration="1531000" />
       <workItem from="1570130787960" duration="1749000" />
-      <workItem from="1570132909376" duration="1032000" />
+      <workItem from="1570132909376" duration="1400000" />
     </task>
     <servers />
   </component>
@@ -418,7 +393,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60837000" />
+    <option name="totallyTimeSpent" value="61205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,7 +407,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30472103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30472103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -441,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52771086" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52771086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33614457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,7 +431,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -743,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="376">
           <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
         </state>
       </provider>

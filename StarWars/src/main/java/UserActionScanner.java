@@ -41,7 +41,7 @@ public class UserActionScanner {
         return result;
     }
 
-    private boolean validateFunctionInputUser(String question) {
+    public boolean validateFunctionInputUser(String question) {
         if(question.equals("start")){
             return true;
         }

@@ -43,17 +43,17 @@ public class SpaceShipsOperations {
     private String CalculateResupply(String consumables, String mglt, int Distance) {
             String [] valuesConsumables = consumables.split(" ");
             if (valuesConsumables[1].equals(Consumables.DAY) || valuesConsumables[1].equals(Consumables.DAYS)){
-                return String.valueOf((Distance/Float.parseFloat(mglt))/
-                        ((Float.parseFloat(valuesConsumables[0])* Consumables.DAY_HOURS)));
+                return String.valueOf(Math.floor((Distance/Float.parseFloat(mglt))/
+                        ((Float.parseFloat(valuesConsumables[0])* Consumables.DAY_HOURS))));
             }else if (valuesConsumables[1].equals(Consumables.WEEK) || valuesConsumables[1].equals(Consumables.WEEKS)){
-                return String.valueOf((Distance/Float.parseFloat(mglt))/
-                        ((Float.parseFloat(valuesConsumables[0])* Consumables.WEEK_HOURS)));
+                return String.valueOf(Math.floor((Distance/Float.parseFloat(mglt))/
+                        ((Float.parseFloat(valuesConsumables[0])* Consumables.WEEK_HOURS))));
             }else if (valuesConsumables[1].equals(Consumables.MONTH) || valuesConsumables[1].equals(Consumables.MONTHS)){
-                return String.valueOf((Distance/Float.parseFloat(mglt))/
-                        ((Float.parseFloat(valuesConsumables[0])* Consumables.MONTH_HOURS)));
+                return String.valueOf(Math.floor((Distance/Float.parseFloat(mglt))/
+                        ((Float.parseFloat(valuesConsumables[0])* Consumables.MONTH_HOURS))));
             }else if (valuesConsumables[1].equals(Consumables.YEAR) || valuesConsumables[1].equals(Consumables.YEARS)){
-                return String.valueOf((Distance/Float.parseFloat(mglt))/
-                        ((Float.parseFloat(valuesConsumables[0])* Consumables.YEAR_HOURS)));
+                return String.valueOf(Math.floor((Distance/Float.parseFloat(mglt))/
+                        ((Float.parseFloat(valuesConsumables[0])* Consumables.YEAR_HOURS))));
             }
         System.out.println(valuesConsumables[0]);
         return "";

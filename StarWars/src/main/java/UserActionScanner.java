@@ -15,13 +15,7 @@ public class UserActionScanner {
         Scanner scanner=new Scanner(System.in);
         while (true) {
 
-            System.out.println();
-            System.out.println("=================Select a function=================");
-            System.out.println(" start: Calculate total amount of stops by distance");
-            System.out.println(" quit: exit");
-            System.out.println("===================================================");
-            System.out.println();
-            System.out.println("Type function");
+            printEntry();
             String question = scanner.nextLine();
             if(question.equals("quit")){
                 break;
@@ -34,14 +28,23 @@ public class UserActionScanner {
                 }else if (!distance.matches("-?\\d+(\\.\\d+)?")){
                     System.out.println("Invalid input retry again");
                 }else {
-                    result = spaceShipsOperations.SpaceShipsAndMAkeCAlculations(1000000);
+                    result = spaceShipsOperations.SpaceShipsAndMAkeCAlculations(Integer.parseInt(distance));
                     for (ResupplyPerSpaceShipPerDistance s: result){
                         System.out.println(s.toString());
                      }
                 }
             }
         }
-
         return result;
+    }
+
+    public void printEntry(){
+        System.out.println();
+        System.out.println("=================Select a function=================");
+        System.out.println(" start: Calculate total amount of stops by distance");
+        System.out.println(" quit: exit");
+        System.out.println("===================================================");
+        System.out.println();
+        System.out.println("Type function");
     }
 }

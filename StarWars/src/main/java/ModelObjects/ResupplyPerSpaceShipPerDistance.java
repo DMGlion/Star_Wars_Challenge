@@ -1,15 +1,36 @@
 package ModelObjects;
 
+/**
+ *This model class is to return the necessary info to the command line UI.
+ * For future expansion of the app it can be expanded but the class will have to be re-named
+ * in a more generic manner.
+ */
 public class ResupplyPerSpaceShipPerDistance {
-
+    /**
+     * name of the spaceship
+     */
     private String name;
+
+    /**
+     * qty of resupply result of the function individualCalculationResupply
+     */
     private String resupply;
+
+    /**
+     * distance given on MGLT
+     */
     private int distance;
+
+    /**
+     * error message to cover the oublic method spaceShipsAndMakeCalculations
+     */
     private String errMessage;
 
-    public ResupplyPerSpaceShipPerDistance() {
-    }
-
+    /**
+     * Constructor for error message when may the public class
+     * spaceShipsAndMakeCalculations in a future is invoked
+     * @param errMessage return an error
+     */
     public ResupplyPerSpaceShipPerDistance(String errMessage) {
         this.errMessage = errMessage;
     }
@@ -27,6 +48,7 @@ public class ResupplyPerSpaceShipPerDistance {
     public void setName(String name) {
         this.name = name;
     }
+
 
     public String getResuply() {
         return resupply;

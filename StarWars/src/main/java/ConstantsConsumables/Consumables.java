@@ -1,5 +1,9 @@
 package ConstantsConsumables;
 
+/**
+ * class of constant to make more verbose the calculation for qty of resuplies per space ship
+ * and the pre-filtering process for it.
+ */
 public class Consumables {
     public static final String HOUR = "hour";
     public static final String HOURS = "hours";

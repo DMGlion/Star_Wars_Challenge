@@ -18,14 +18,37 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "previous",
         "results"
 })
+
+/**
+ * This class is the outer array of SpaceShips jackson model.
+ * It is used to got through the different uri of space ship
+ * beccuse on next you can see included the next uri where you
+ * can collect the information from the following group of
+ * star ships.
+ */
 public class SpaceShipsOverView {
 
+    /**
+     * Total qty of star ships
+     */
     @JsonProperty("count")
     private Integer count;
+
+    /**
+     * next uri for other space ships it will be null if it is the last group.
+     */
     @JsonProperty("next")
     private String next;
+
+    /**
+     * previous uri of star ship, it will be null if is the first group.
+     */
     @JsonProperty("previous")
     private Object previous;
+
+    /**
+     * Json inner Array of star ships
+     */
     @JsonProperty("results")
     private List<SpaceShips> spaceShips = null;
     @JsonIgnore

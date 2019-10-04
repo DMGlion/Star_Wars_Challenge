@@ -9,8 +9,15 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+/**
+ * Test for the class where calculation of qty of reposition needed per star ship
+ */
 public class SpaceShipsOperationsTest {
     SpaceShipsOperations spaceShipsOperations = new SpaceShipsOperations();
+
+    /**
+     * Invalid incoming value minor than 0 then expected error message
+     */
     @Test
     public void spaceShipsAndMakeCalculationsNegativeMGT() {
         List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
@@ -18,6 +25,9 @@ public class SpaceShipsOperationsTest {
         Assert.assertTrue(results.get(0).getErrMessage().equals("MGLT received is not in a correct format"));
     }
 
+    /**
+     * Invalid incoming value is major tha Integer.Max Value
+     */
     @Test
     public void spaceShipsAndMakeCalculationsOverMAxInt() {
         List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();
@@ -25,6 +35,9 @@ public class SpaceShipsOperationsTest {
         Assert.assertTrue(results.get(0).getErrMessage().equals("MGLT received is not in a correct format"));
     }
 
+    /**
+     * Testing if process of calculation works properly
+     */
     @Test
     public void spaceShipsAndMakeCalculations() {
         List<ResupplyPerSpaceShipPerDistance> results = new ArrayList<ResupplyPerSpaceShipPerDistance>();

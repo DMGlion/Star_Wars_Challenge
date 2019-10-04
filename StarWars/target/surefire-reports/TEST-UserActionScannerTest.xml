@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="UserActionScannerTest" time="10.493" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="UserActionScannerTest" time="6.779" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.1+12"/>
@@ -60,13 +60,12 @@
   </properties>
   <testcase classname="UserActionScannerTest" name="validateUserInputMGLTBellowZero" time="0.004"/>
   <testcase classname="UserActionScannerTest" name="validateUserInputMGLT" time="0"/>
-  <testcase classname="UserActionScannerTest" name="callCalculationIndividualExpectedResults" time="5.858"/>
-  <testcase classname="UserActionScannerTest" name="validateUserInputMGLTOverMaxInt" time="0.001"/>
+  <testcase classname="UserActionScannerTest" name="callCalculationIndividualExpectedResults" time="3.9"/>
+  <testcase classname="UserActionScannerTest" name="validateUserInputMGLTOverMaxInt" time="0"/>
   <testcase classname="UserActionScannerTest" name="validateUserInputMGLTNotNumerical" time="0"/>
-  <testcase classname="UserActionScannerTest" name="validateFunctionInputUserInvalidString" time="0.003"/>
+  <testcase classname="UserActionScannerTest" name="validateFunctionInputUserInvalidString" time="0.002"/>
   <testcase classname="UserActionScannerTest" name="validateUserInputMGLTMixNumericalAndOTherCharacters" time="0"/>
   <testcase classname="UserActionScannerTest" name="validateFunctionInputUserValidString" time="0"/>
-  <testcase classname="UserActionScannerTest" name="callCalculation" time="4.627"/>
-  <testcase classname="UserActionScannerTest" name="validateFunctionInputUserValidStringOnlyNumbers" time="0"/>
+  <testcase classname="UserActionScannerTest" name="callCalculation" time="2.873"/>
   <testcase classname="UserActionScannerTest" name="validateFunctionInputUserValidStringQuit" time="0"/>
 </testsuite>

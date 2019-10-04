@@ -27,44 +27,125 @@ import java.util.Map;
         "edited",
         "url"
 })
+/**
+ * Jackson Object for the json from the API space ships
+ */
 public class SpaceShips {
 
+    /**
+     * name of the space ship
+     */
     @JsonProperty("name")
     private String name;
+
+    /**
+     * Model of the space Ship
+     */
     @JsonProperty("model")
     private String model;
+
+    /**
+     * Manufacturer of the space ship
+     */
     @JsonProperty("manufacturer")
     private String manufacturer;
+
+    /**
+     * Cost of the space ship in credits
+     */
     @JsonProperty("cost_in_credits")
     private String costInCredits;
+
+    /**
+     * Lenght of the space ship
+     */
     @JsonProperty("length")
     private String length;
+
+    /**
+     * The maximum speed of this starship in the atmosphere.
+     * "N/A" if this starship is incapable of atmospheric flight
+     */
     @JsonProperty("max_atmosphering_speed")
     private String maxAtmospheringSpeed;
+
+    /**
+     * The number of personnel needed to run or pilot this starship.
+     */
     @JsonProperty("crew")
     private String crew;
+
+    /**
+     * The number of non-essential people this starship can transport.
+     */
     @JsonProperty("passengers")
     private String passengers;
+
+    /**
+     * The maximum number of kilograms that this starship can transport.
+     */
     @JsonProperty("cargo_capacity")
     private String cargoCapacity;
+
+    /**
+     * The maximum length of time that this starship can provide
+     * consumables for its entire crew without having to resupply.
+     */
     @JsonProperty("consumables")
     private String consumables;
+
+    /**
+     * The class of this starships hyperdrive.
+     */
     @JsonProperty("hyperdrive_rating")
     private String hyperdriveRating;
+
+    /**
+     * The Maximum number of Megalights this starship can travel in a standard hour.
+     * A "Megalight" is a standard unit of distance and has never been defined
+     * before within the Star Wars universe. This figure is only really useful
+     * for measuring the difference in speed of starships. We can assume it is
+     * similar to AU, the distance between our Sun (Sol) and Earth.
+     */
     @JsonProperty("MGLT")
     private String MGLT;
+
+    /**
+     * The class of this starship, such as "Starfighter" or "Deep Space Mobile Battlestation"
+     */
     @JsonProperty("starship_class")
     private String starshipClass;
+
+    /**
+     * An array of People URL Resources that this starship has been piloted by.
+     */
     @JsonProperty("pilots")
     private List<String> pilots = null;
+
+    /**
+     * An array of Film URL Resources that this starship has appeared in.
+     */
     @JsonProperty("films")
     private List<String> films = null;
+
+    /**
+     * the ISO 8601 date format of the time that this resource was created.
+     */
     @JsonProperty("created")
     private String created;
+
+    /**
+     * the ISO 8601 date format of the time that this resource was edited.
+     */
     @JsonProperty("edited")
     private String edited;
+
+    /**
+     * the hypermedia URL of this resource.
+     */
     @JsonProperty("url")
     private String url;
+
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 

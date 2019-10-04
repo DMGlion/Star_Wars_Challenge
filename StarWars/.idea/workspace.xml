@@ -1,12 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Open Files" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="StarWars:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5059a65d-4027-4b7a-8f47-73bfb8bafd65" name="Default Changelist" comment="" />
+    <list default="true" id="5059a65d-4027-4b7a-8f47-73bfb8bafd65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConstantsConsumables/Consumables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConstantsConsumables/Consumables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StarWarsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StarWarsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserActionScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserActionScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpaceShipsAndCalculation/SpaceShipsOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpaceShipsAndCalculation/SpaceShipsOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserActionScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserActionScannerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/StarWars-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/StarWars-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/StarWars-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/StarWars-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/API.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/ArgumentSwitcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/ArgumentSwitcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/GetRequestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/GetRequestRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/API/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/API/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConstantsConsumables/Consumables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConstantsConsumables/Consumables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShips.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShips.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShipsOverView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JacksonObjects/SpaceShipsOverView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ModelObjects/ResupplyPerSpaceShipPerDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ModelObjects/ResupplyPerSpaceShipPerDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SpaceShipsAndCalculation/SpaceShipsOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StarWarsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StarWarsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserActionScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserActionScanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SpaceShipsAndCalculation.SpaceShipsOperationsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SpaceShipsAndCalculation.SpaceShipsOperationsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SpaceShipsAndCalculation.SpaceShipsOperationsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SpaceShipsAndCalculation.SpaceShipsOperationsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-UserActionScannerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-UserActionScannerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/UserActionScannerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/UserActionScannerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SpaceShipsAndCalculation/SpaceShipsOperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpaceShipsAndCalculation/SpaceShipsOperationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StarWarsAPItest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StarWarsAPItest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UserActionScannerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserActionScannerTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +62,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="105">
+              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StarWarsAPItest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConstantsConsumables/Consumables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -33,46 +134,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/StarWarsMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/MANIFEST.MF">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UserActionScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpaceShipsAndCalculation/SpaceShipsOperationsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UserActionScannerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="56" column="68" selection-start-line="20" selection-start-column="8" selection-end-line="56" selection-end-column="68" />
+            <state relative-caret-position="1590">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,6 +172,7 @@
       <find>maven</find>
       <find>5</find>
       <find>propiet</find>
+      <find>plug</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,20 +187,20 @@
         <option value="$PROJECT_DIR$/src/main/java/API/API.java" />
         <option value="$PROJECT_DIR$/src/test/java/StarWarsAPItest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/spaceShips.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/GetSpaceShips.java" />
         <option value="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPErDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/API/Printer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Variables/Consumables.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/java/ConstantsConsumables/Consumables.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StarWarsMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UserActionScannerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java" />
         <option value="$PROJECT_DIR$/src/main/java/UserActionScanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpaceShipsAndCalculation/SpaceShipsOperationsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/test/java/UserActionScannerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StarWarsMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -145,6 +217,11 @@
           <item name="StarWars" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StarWars" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -159,31 +236,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
               <item name="StarWars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="StarWars_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
@@ -203,11 +261,51 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpaceShipsAndCalculation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StarWars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StarWars" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,6 +320,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -247,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.StarWars.jar">
+  <component name="RunManager" selected="Application.StarWarsMain">
     <configuration name="StarWarsMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StarWarsMain" />
       <module name="StarWars" />
@@ -294,16 +393,16 @@
       <item itemvalue="JAR Application.StarWars-1.0-SNAPSHOT.jar" />
       <item itemvalue="JAR Application.StarWars-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       <item itemvalue="JAR Application.StarWars-1.0-SNAPSHOT-jar-with-dependencies.jar (1)" />
-      <item itemvalue="JUnit.SpaceShipsOperationsTest" />
       <item itemvalue="JAR Application.StarWars.jar" />
+      <item itemvalue="JUnit.SpaceShipsOperationsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpaceShipsOperationsTest" />
         <item itemvalue="JAR Application.StarWars.jar" />
         <item itemvalue="JAR Application.StarWars-1.0-SNAPSHOT-jar-with-dependencies.jar (1)" />
         <item itemvalue="JAR Application.StarWars-1.0-SNAPSHOT-jar-with-dependencies.jar" />
         <item itemvalue="JAR Application.StarWars-1.0-SNAPSHOT.jar" />
-        <item itemvalue="JUnit.SpaceShipsOperationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -357,13 +456,22 @@
       <workItem from="1570128974865" duration="1531000" />
       <workItem from="1570130787960" duration="1749000" />
       <workItem from="1570132909376" duration="1400000" />
+      <workItem from="1570140817483" duration="886000" />
+      <workItem from="1570143664814" duration="1400000" />
+      <workItem from="1570145470514" duration="1762000" />
+      <workItem from="1570147523070" duration="1378000" />
+      <workItem from="1570149337242" duration="1687000" />
+      <workItem from="1570151165625" duration="1782000" />
+      <workItem from="1570152978873" duration="1745000" />
+      <workItem from="1570154795137" duration="610000" />
+      <workItem from="1570156993486" duration="642000" />
+      <workItem from="1570159020804" duration="227000" />
+      <workItem from="1570160241346" duration="1911000" />
+      <workItem from="1570180885861" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserActionScannerTest_callCalculationIndividualExpectedResults - 2019.10.03 at 17h 14m 57s.xml">
-      <configuration name="UserActionScannerTest.callCalculationIndividualExpectedResults" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StarWarsAPItest - 2019.10.03 at 18h 25m 40s.xml">
       <configuration name="StarWarsAPItest" configurationId="JUnit" />
     </history-entry>
@@ -391,9 +499,12 @@
     <history-entry file="SpaceShipsOperationsTest - 2019.10.03 at 18h 56m 57s.xml">
       <configuration name="SpaceShipsOperationsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpaceShipsOperationsTest - 2019.10.03 at 23h 23m 37s.xml">
+      <configuration name="SpaceShipsOperationsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61205000" />
+    <option name="totallyTimeSpent" value="75871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,7 +518,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30472103" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3597997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -416,7 +527,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52771086" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52771086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33614457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,7 +542,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.16809729" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -447,25 +558,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java</url>
-          <line>50</line>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java</url>
-          <line>33</line>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/UserActionScanner.java</url>
-          <line>59</line>
+          <line>79</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/UserActionScanner.java</url>
-          <line>61</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -600,94 +711,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConstantsConsumables/Consumables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#645#646#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UserActionScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StarWarsAPItest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StarWarsMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,27 +728,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpaceShipsAndCalculation/SpaceShipsOperationsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UserActionScannerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpaceShipsAndCalculation/SpaceShipsOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="56" column="68" selection-start-line="20" selection-start-column="8" selection-end-line="56" selection-end-column="68" />
+        <state relative-caret-position="1650">
+          <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpaceShipsAndCalculation/SpaceShipsOperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserActionScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="113" column="40" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StarWarsAPItest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConstantsConsumables/Consumables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShips.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JacksonObjects/SpaceShipsOverView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModelObjects/ResupplyPerSpaceShipPerDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StarWarsMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserActionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

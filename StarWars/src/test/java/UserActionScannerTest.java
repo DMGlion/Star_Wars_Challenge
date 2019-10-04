@@ -4,17 +4,25 @@ import org.junit.Test;
 
 import java.util.List;
 
+/**
+ * On this test we validate if the validation works properly on the user side
+ */
 public class UserActionScannerTest {
     UserActionScanner userActionScanner = new UserActionScanner();
 
 
-    //This test will pass eventually if they don't change the quantity of spaceships on the API
+    /**
+     * This test will pass eventually if they don't change the quantity of spaceships on the API
+     */
     @Test
     public void callCalculation() {
         List<ResupplyPerSpaceShipPerDistance> result = userActionScanner.callCalculation("10000");
         Assert.assertEquals(result.size(), 37);
     }
 
+    /**
+     * Testing if process of calculation works properly
+     */
     @Test
     public void callCalculationIndividualExpectedResults() {
         List<ResupplyPerSpaceShipPerDistance> result = userActionScanner.callCalculation("10000000");
@@ -57,57 +65,74 @@ public class UserActionScannerTest {
         Assert.assertEquals(result.get(36).getResuply(), "unknown");
     }
 
+    /**
+     * testing valid input for MGLT
+     */
     @Test
     public void validateUserInputMGLT() {
         boolean result = userActionScanner.validateUserInput("10000");
         Assert.assertTrue(result);
     }
 
+    /**
+     * Testing MGLT values under 0
+     */
     @Test
     public void validateUserInputMGLTBellowZero() {
         boolean result = userActionScanner.validateUserInput("-1");
         Assert.assertFalse(result);
     }
 
+    /**
+     * testing overflow Integer.Max
+     */
     @Test
     public void validateUserInputMGLTOverMaxInt() {
         boolean result = userActionScanner.validateUserInput("2147483648");
         Assert.assertFalse(result);
     }
 
+    /**
+     * testing MGLT input with characters which is invalid
+     */
     @Test
     public void validateUserInputMGLTNotNumerical() {
         boolean result = userActionScanner.validateUserInput("testing");
         Assert.assertFalse(result);
     }
 
+    /**
+     * testing user input MGLT mixture of numeric and none numeric
+     */
     @Test
     public void validateUserInputMGLTMixNumericalAndOTherCharacters() {
         boolean result = userActionScanner.validateUserInput("b6987ceb678");
         Assert.assertFalse(result);
     }
 
+    /**
+     * testing if a combination of valid input and numeric value fails
+     */
     @Test
     public void validateFunctionInputUserInvalidString() {
         boolean result =userActionScanner.validateFunctionInputUser("start1");
         Assert.assertFalse(result);
     }
 
+    /**
+     * Testing if start is a valis input
+     */
     @Test
     public void validateFunctionInputUserValidString() {
         boolean result =userActionScanner.validateFunctionInputUser("start");
         Assert.assertTrue(result);
     }
 
-    //This is a valid input but we don'' want to execute the calculation
+    /**
+     * quit valid input but we don't want to execute the calculation
+     */
     @Test
     public void validateFunctionInputUserValidStringQuit() {
-        boolean result =userActionScanner.validateFunctionInputUser("quit");
-        Assert.assertFalse(result);
-    }
-
-    @Test
-    public void validateFunctionInputUserValidStringOnlyNumbers() {
         boolean result =userActionScanner.validateFunctionInputUser("quit");
         Assert.assertFalse(result);
     }

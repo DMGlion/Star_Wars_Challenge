@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"ConstantsConsumables"},{"l":"JacksonObjects"},{"l":"ModelObjects"},{"l":"SpaceShipsAndCalculation"}]

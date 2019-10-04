@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: UserActionScannerTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.837 sec
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.402 sec
